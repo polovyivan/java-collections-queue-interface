@@ -1,0 +1,25 @@
+@startuml
+interface Iterable {
+}
+
+interface Collection extends Iterable {
+}
+
+interface Queue extends Collection {
+}
+
+interface Deque extends Queue {
+}
+
+class LinkedList implements Deque {
+}
+
+class PriorityQueue implements Queue {
+}
+
+class ArrayDeque implements Deque {
+}
+
+
+
+@enduml
